@@ -7,6 +7,7 @@ import Historial from '../views/Historial.vue'
 import PagoSucursal from '../views/PagoSucursal.vue';
 
 
+
 const routes = [
   { path: '/', component: Home },
   { path: '/historial', component: Historial },
@@ -17,5 +18,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes
 })
+
+
 
 export default router
